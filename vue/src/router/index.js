@@ -20,6 +20,11 @@ const routes = [
     ]
   },
   {
+    path: '/surveys',
+    name: 'Surveys',
+    component: Surveys
+  },
+  {
     path: '/auth',
     redirect: '/login',
     name: 'Auth',
