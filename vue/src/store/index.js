@@ -19,7 +19,7 @@ const store = createStore({
   },
   actions: {
     register({ commit }, user) {
-      return fetch(`http://localhost:3000/register`, {
+      return fetch('http://localhost:3000/register', {
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json",
